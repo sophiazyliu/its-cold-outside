@@ -12,7 +12,7 @@ function Fireplace() {
         <Card 
             className="shadow border-0 card p-2 my-1" 
             style={{ backgroundColor: 'beige', color: 'black' }}
-            onMouseEnter={() => play()} 
+            onClick={() => play()} 
             onMouseLeave={() => stop()}
             >                 
         <CardTitle tag="h7" id="h1-id">

@@ -2,7 +2,9 @@ import React from 'react'
 import {
   Row, 
   Col, 
-  Container
+  Container,
+  Card,
+  CardTitle
 } from 'reactstrap'
 import './Home.css'
 import Snowstorm from '../components/Snowstorm'
@@ -32,7 +34,7 @@ function Home() {
         </VideoBg>
       </div>
       <br/>
-      <div className="contained">
+      <div>
         <Container>
         <Col>
             <Row style={{ width: "10rem"}}>
@@ -49,6 +51,26 @@ function Home() {
             </Row>
             <Row style={{ width: "10rem"}}>
                 <Sleigh />
+            </Row>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <Row style={{ width: "9rem"}}>
+              <Card 
+              className="shadow border-0 card p-2 my-1" 
+              style={{ backgroundColor: 'beige', color: 'black' }}
+              >                 
+              <CardTitle tag="h7" id="h1-id">
+                  <a href="https://github.com/sophiazyliu/its-cold-outside">Github Repo</a>
+              </CardTitle>
+              </Card>
             </Row>
           </Col>
         </Container>
