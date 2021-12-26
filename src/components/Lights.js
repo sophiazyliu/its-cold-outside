@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import useSound from 'use-sound'
-import snowstorm from '../00-snowstorm.mp3'
+import lights from '../00-xmas-lights.mp3'
 import './comp.css'
 
-function Snowstorm() {
-    const [play] = useSound(snowstorm);
+function Lights() {
+    const [play] = useSound(lights);
     const [display, setDisplay] = useState("notdisplayed");
 
     const showButton = e => {
@@ -46,4 +46,4 @@ function Snowstorm() {
     )
 }
 
-export default Snowstorm
+export default Lights

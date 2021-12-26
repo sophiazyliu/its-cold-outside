@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import useSound from 'use-sound'
-import snowstorm from '../00-snowstorm.mp3'
+import stocking from '../00-stockings.mp3'
 import './comp.css'
 
-function Snowstorm() {
-    const [play] = useSound(snowstorm);
+function Stocking() {
+    const [play, { stop }] = useSound(stocking);
     const [display, setDisplay] = useState("notdisplayed");
 
     const showButton = e => {
@@ -37,7 +37,8 @@ function Snowstorm() {
                     <button 
                         className={display}
                         style={ buttonstyle }
-                        onMouseEnter={() => play()}
+                        onMouseEnter={() => play()} 
+                        onMouseLeave={() => stop()}
                     >
                     </button>
                 </div>
@@ -46,4 +47,4 @@ function Snowstorm() {
     )
 }
 
-export default Snowstorm
+export default Stocking

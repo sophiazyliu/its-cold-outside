@@ -1,24 +1,48 @@
-import React from 'react'
-import {
-    Card, 
-    CardTitle
-} from 'reactstrap'
+import React, { useState } from 'react'
 import useSound from 'use-sound'
 import fireplace from '../00-fireplace.mp3'
+import './comp.css'
 
 function Fireplace() {
-    const [play, { stop }] = useSound(fireplace);
+    const [play] = useSound(fireplace);
+    const [display, setDisplay] = useState("notdisplayed");
+
+    const showButton = e => {
+        e.preventDefault();
+        setDisplay("displayed");
+    };
+
+    const hideButton = e => {
+        e.preventDefault();
+        setDisplay("notdisplayed");
+    };
+    
+    const buttonstyle = {
+        backgroundColor: 'transparent',
+        color: 'rgb(16,16,16)', 
+        height: '30%', 
+        borderColor: 'transparent', 
+        borderRadius: '3px',
+        fontFamily: 'Roboto Mono'
+    }
+
     return (
-        <Card 
-            className="shadow border-0 card p-2 my-1" 
-            style={{ backgroundColor: 'beige', color: 'black' }}
-            onClick={() => play()} 
-            onMouseLeave={() => stop()}
-            >                 
-        <CardTitle tag="h7" id="h1-id">
-            fireplace
-        </CardTitle>
-        </Card>
+        <div>
+            <div>
+                <div
+                    className="firebox"
+                    onMouseEnter={e => showButton(e)}
+                    onMouseLeave={e => hideButton(e)}
+                >
+                    <button 
+                        className={display}
+                        style={ buttonstyle }
+                        onMouseEnter={() => play()}
+                    >
+                    </button>
+                </div>
+            </div>
+        </div>
     )
 }
 
