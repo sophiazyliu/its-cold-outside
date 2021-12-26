@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/its-cold-outside/static/css/main.48d28806.css",
+    "main.js": "/its-cold-outside/static/js/main.5872295c.js",
+    "static/js/845.8abb9962.chunk.js": "/its-cold-outside/static/js/845.8abb9962.chunk.js",
+    "static/media/00-music-box.mp3": "/its-cold-outside/static/media/00-music-box.3c28c54376fd008c2053.mp3",
+    "static/media/00-snowstorm.mp3": "/its-cold-outside/static/media/00-snowstorm.14dd791c3ad46962b4b2.mp3",
+    "static/media/00-fireplace.mp3": "/its-cold-outside/static/media/00-fireplace.f55ee597d6beba0a7c7e.mp3",
+    "static/media/sleigh-bells-indoor.mp4": "/its-cold-outside/static/media/sleigh-bells-indoor.5cce9459cb7b0d56277b.mp4",
+    "static/media/00-stockings.mp3": "/its-cold-outside/static/media/00-stockings.2a6033406c9069ef8850.mp3",
+    "static/media/sleigh-bells-indoor.jpeg": "/its-cold-outside/static/media/sleigh-bells-indoor.f4c53676019a9514f436.jpeg",
+    "static/media/00-xmas-lights.mp3": "/its-cold-outside/static/media/00-xmas-lights.8a00c58c498a970231ab.mp3",
+    "static/media/sleigh-bells-indoor.webm": "/its-cold-outside/static/media/sleigh-bells-indoor.37865ab98a822073d759.webm",
+    "static/media/00-cat-meow.mp3": "/its-cold-outside/static/media/00-cat-meow.8bfa340bf4d10a289df9.mp3",
+    "static/media/00-rising-pops.mp3": "/its-cold-outside/static/media/00-rising-pops.7eda816bdfd07481ef50.mp3",
+    "index.html": "/its-cold-outside/index.html",
+    "main.48d28806.css.map": "/its-cold-outside/static/css/main.48d28806.css.map",
+    "main.5872295c.js.map": "/its-cold-outside/static/js/main.5872295c.js.map",
+    "845.8abb9962.chunk.js.map": "/its-cold-outside/static/js/845.8abb9962.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48d28806.css",
+    "static/js/main.5872295c.js"
+  ]
+}
