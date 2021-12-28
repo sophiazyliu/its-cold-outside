@@ -15,3 +15,7 @@
 #h1-id {
     font-family: 'Roboto Mono', monospace;
 }
+
+.cont {
+    padding-left: 0;
+}

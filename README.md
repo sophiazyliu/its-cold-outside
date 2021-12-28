@@ -1,5 +1,3 @@
-# it's cold outside
-
 it’s cold outside allows you to explore a room full of Christmas sounds: sleigh bells, a crackling fireplace, a Christmas music box, a cat meowing, and more. To discover the sounds, you hover over the animated objects in the room – some sounds are fleeting while others blend together to create a warm and festive Christmas spirit.
 
 ## How we built it
